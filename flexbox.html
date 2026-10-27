@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flexbox</h1>
+        <p>Aprendendo a organizar elementos com CSS</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="flexbox.html">Flexbox</a>
+        <a href="grid.html">Grid</a>
+    </nav>
+
+    <main>
+        <h2>O que é Flexbox?</h2>
+        <p>Flexbox é uma ferramenta do CSS que ajuda a organizar os elementos de uma página. Com ele, podemos alinhar e distribuir os itens de maneira mais fácil.</p>
+
+        <h2>Principais propriedades</h2>
+
+        <h3>Display: flex</h3>
+        <p>Ativa o Flexbox dentro de um elemento.</p>
+
+        <h3>Flex-direction</h3>
+        <p>Define se os elementos vão ficar em linha ou em coluna.</p>
+
+        <h3>Justify-content</h3>
+        <p>Organiza os elementos no eixo principal.</p>
+
+        <h3>Align-items</h3>
+        <p>Alinha os elementos no eixo transversal.</p>
+
+        <h3>Gap</h3>
+        <p>Define o espaço entre os elementos.</p>
+
+        <h2>Outras propriedades</h2>
+        <p>Também existem propriedades como flex-wrap, que permite quebrar os elementos para outra linha, flex-grow, que permite aumentar o tamanho de um item, e flex-shrink, que controla a redução dos elementos.</p>
+
+        <h2>Exemplo de Flexbox</h2>
+
+        <div class="flex">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+
+        <pre>
+.flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+        </pre>
+
+        <p>O Flexbox é muito utilizado em menus, botões e na organização de elementos de uma página.</p>
+    </main>
+
+    <footer>
+        <p>Atividade de HTML e CSS</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Grid</h1>
+        <p>Aprendendo a organizar elementos em linhas e colunas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="flexbox.html">Flexbox</a>
+        <a href="grid.html">Grid</a>
+    </nav>
+
+    <main>
+        <h2>O que é Grid?</h2>
+        <p>CSS Grid é uma ferramenta que permite organizar os elementos de um site em linhas e colunas. Ele facilita a criação de layouts e a divisão do espaço da página.</p>
+
+        <h2>Principais propriedades</h2>
+
+        <h3>Display: grid</h3>
+        <p>Ativa o sistema Grid em um elemento.</p>
+
+        <h3>Grid-template-columns</h3>
+        <p>Define quantas colunas vão existir e o tamanho de cada uma.</p>
+
+        <h3>Grid-template-rows</h3>
+        <p>Define as linhas e seus tamanhos.</p>
+
+        <h3>Gap</h3>
+        <p>Define o espaço entre as linhas e colunas.</p>
+
+        <h3>Frações (fr)</h3>
+        <p>A unidade fr divide o espaço disponível entre as colunas ou linhas.</p>
+
+        <h2>Outras propriedades</h2>
+        <p>Podemos usar repeat() para repetir colunas, minmax() para definir tamanhos mínimos e máximos, e grid-column ou grid-row para definir quanto espaço um elemento vai ocupar.</p>
+
+        <h2>Exemplo de Grid</h2>
+
+        <div class="grid">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+        </div>
+
+        <pre>
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+        </pre>
+
+        <p>O Grid pode ser usado para criar galerias de imagens, cartões e organizar diferentes partes de um site.</p>
+    </main>
+
+    <footer>
+        <p>Atividade de HTML e CSS</p>
+    </footer>
+</body>
+</html>
